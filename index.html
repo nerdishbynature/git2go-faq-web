@@ -2,14 +2,13 @@
 layout: default
 ---
 
-<div class="home">
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="faq-list">
+    <ul class="list-group">
+        {% for post in site.posts %}
+        <li class="list-group-item">
+            <span class="badge"><i class="fa fa-angle-right"></i></span>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
 </div>
