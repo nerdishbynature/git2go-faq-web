@@ -21,4 +21,4 @@ movie_name: "clone_repo"
 
 * You can only clone one repository at the time
 * To clone private repositories you will have to purchase an In-App purchase
-* Cloning a repository can not be aborted. If forced it may leed to corrupeted repositories on your iOS device. These can be solved by deleting the repository from the device.
+* Cloning a repository can not be aborted. If forced it may lead to corrupted repositories on your iOS device. These can be solved by deleting the repository from the device.
