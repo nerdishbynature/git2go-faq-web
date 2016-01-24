@@ -7,7 +7,8 @@ Since version 1.5 (released on 25 Feb 2016) we added support for url schemes tha
 
 Unfortunately numbers are forbidden in URL protocols so our base scheme is `gittogo://`. We structured the URL schemes `REST` like.
 
-### `repositories/:type/:owner/:name`
+## Repositories
+**Route:** `repositories/:type/:owner/:name`
 
 All access points share one base route for the moment: `repositories/:type/:owner/:name` owner and name should be self explanatory so if your repository is `https://github.com/nerdishbynature/OctoKit.swift` then `owner` is `nerdishbynature` and `name` is `OctoKit.swift`.
 Types is where it gets interesting, available types are:
@@ -22,19 +23,23 @@ More types will follow but these hosters are all we currently integrate with.
 
 Just calling this route will simply switch the current repository to the repository from the route. **If the repository is not yet cloned the call will simply fail**
 
-### `repositories/:type/:owner/:name/commits`
+### Commits
+**Route:** `repositories/:type/:owner/:name/commits`
 
 Calling this route will select the Commits or History tab in the TabBar.
 
-### `repositories/:type/:owner/:name/branches`
+### Branches
+**Route:** `repositories/:type/:owner/:name/branches`
 
 Calling this route will select Branches tab in the TabBar
 
-### `repositories/:type/:owner/:name/files`
+### Files
+**Route:** `repositories/:type/:owner/:name/files`
 
 Calling this route will select the Files tab in the TabBar
 
-### `repositories/:type/:owner/:name/file/new`
+#### Create File
+**Route:** `repositories/:type/:owner/:name/file/new`
 
 Calling this route will select the files tab and create a new file with the given path and the content.
 
