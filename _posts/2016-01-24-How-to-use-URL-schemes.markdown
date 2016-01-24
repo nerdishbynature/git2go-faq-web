@@ -7,7 +7,7 @@ Since version 1.5 (released on 25 Feb 2016) we added support for url schemes tha
 
 Unfortunately numbers are forbidden in URL protocols so our base scheme is `gittogo://`. We structured the URL schemes `REST` like.
 
-## `repositories/:type/:owner/:name`
+### `repositories/:type/:owner/:name`
 
 All access points share one base route for the moment: `repositories/:type/:owner/:name` owner and name should be self explanatory so if your repository is `https://github.com/nerdishbynature/OctoKit.swift` then `owner` is `nerdishbynature` and `name` is `OctoKit.swift`.
 Types is where it gets interesting, available types are:
