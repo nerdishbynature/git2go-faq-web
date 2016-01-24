@@ -7,3 +7,5 @@ twitter_username: git2go
 
 # Build settings
 markdown: kramdown
+redcarpet:
+  extensions: []
