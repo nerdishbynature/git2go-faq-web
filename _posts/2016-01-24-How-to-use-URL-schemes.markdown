@@ -3,7 +3,7 @@ layout: post
 title: How to use URL schemes
 ---
 
-Since version 1.5 (released on 25 Feb 2016) we added support for url schemes that lets you integrate with Workflow or 1Writer (or just you own custom scripts). This article should be an overview of all routes available and how to use them.
+Since version 1.5 (released on 25 Jan 2016) we added support for url schemes that lets you integrate with Workflow or 1Writer (or just you own custom scripts). This article should be an overview of all routes available and how to use them.
 
 Unfortunately numbers are forbidden in URL protocols so our base scheme is `gittogo://`. We structured the URL schemes `REST` like.
 
