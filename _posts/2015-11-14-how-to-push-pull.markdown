@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ho do I push/pull changes?"
+title:  "How do I push/pull changes?"
 date:   2015-11-14 11:44:58
 ---
 
