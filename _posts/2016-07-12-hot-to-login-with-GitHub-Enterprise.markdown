@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to login with GitHub Enterprise"
-date:   2016-07-12 10:43:00
+date:   2016-07-12 10:43:00 +0200
 ---
 
 ## Steps

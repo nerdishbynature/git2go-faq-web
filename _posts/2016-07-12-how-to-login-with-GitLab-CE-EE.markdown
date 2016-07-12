@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to login with GitLab CE/EE"
-date:   2016-07-12 10:51:00
+date:   2016-07-12 10:51:00 +0200
 ---
 
 ## Steps
