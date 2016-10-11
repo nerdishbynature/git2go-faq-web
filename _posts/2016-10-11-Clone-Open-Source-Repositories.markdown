@@ -10,3 +10,5 @@ date:   2016-10-11 12:11:00 +0200
 2. Tap the share icon from the toolbar on the bottom
 3. Select *Clone into Git2Go* (may be hidden in *More*)
 4. Git2Go will clone the repository and you can access it by selecting it in the app
+
+![](/static/2016-10-11-Clone-Open-Source.jpg)
